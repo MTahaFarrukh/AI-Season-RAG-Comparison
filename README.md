@@ -1,5 +1,12 @@
 # 🤖 AI Season RAG Comparison
 
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.116-green?logo=fastapi)
+![LangChain](https://img.shields.io/badge/LangChain-RAG-yellow)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-VectorDB-orange)
+![Groq](https://img.shields.io/badge/Groq-LLM-red)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v4-38BDF8?logo=tailwindcss)
+
 A Retrieval-Augmented Generation (RAG) application built with **React**, **FastAPI**, **LangChain**, **ChromaDB**, and **Groq** to compare different chunking strategies and retrieval techniques.
 
 ---
