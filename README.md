@@ -172,7 +172,16 @@ npm run dev
 - Evaluation Metrics
 
 ---
+## 📈 Key Findings
 
+After testing all six combinations, I observed:
+
+- Recursive chunking produced the most balanced results for this document.
+- MMR reduced repetitive context compared to similarity search.
+- Token-based chunking worked well for smaller factual queries but sometimes lost contextual continuity.
+- Retrieval quality depends on both chunking strategy and retriever choice rather than either one alone.
+
+---
 ## 👨‍💻 Author
 
 **Muhammad Taha Farrukh**
