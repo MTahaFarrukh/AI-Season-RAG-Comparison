@@ -2,33 +2,34 @@ function Header() {
   return (
     <div className="text-center mb-10">
 
-      <h1 className="text-6xl font-bold text-cyan-400">
-        AI Season RAG Comparison
+      <h1 className="text-6xl md:text-7xl font-extrabold bg-gradient-to-r from-yellow-300 via-amber-400 to-orange-500 bg-clip-text text-transparent">
+            AI Season RAG Comparison
       </h1>
 
-      <p className="text-slate-400 mt-3 text-xl">
-        Compare Chunking Strategies & Retrieval Techniques
+      <p className="mt-5 text-lg text-gray-400 max-w-2xl mx-auto">
+        Compare three chunking strategies with two retrieval techniques and analyze
+        how different RAG pipelines influence response quality.
       </p>
       <div className="flex flex-wrap justify-center gap-3 mt-6">
 
-  <span className="bg-slate-800 px-4 py-2 rounded-full text-cyan-400">
-    React
+  <span className="rounded-full border border-amber-400/20 bg-[#171717] px-4 py-2 text-sm font-medium text-amber-300 transition-all duration-300 hover:border-amber-400 hover:bg-[#202020] hover:scale-105">
+    ⚡ React
   </span>
 
-  <span className="bg-slate-800 px-4 py-2 rounded-full text-cyan-400">
-    FastAPI
+  <span className="rounded-full border border-amber-400/20 bg-[#171717] px-4 py-2 text-sm font-medium text-amber-300 transition-all duration-300 hover:border-amber-400 hover:bg-[#202020] hover:scale-105">
+    🚀 FastAPI
   </span>
 
-  <span className="bg-slate-800 px-4 py-2 rounded-full text-cyan-400">
-    LangChain
+  <span className="rounded-full border border-amber-400/20 bg-[#171717] px-4 py-2 text-sm font-medium text-amber-300 transition-all duration-300 hover:border-amber-400 hover:bg-[#202020] hover:scale-105">
+    🦜 LangChain
   </span>
 
-  <span className="bg-slate-800 px-4 py-2 rounded-full text-cyan-400">
-    ChromaDB
+  <span className="rounded-full border border-amber-400/20 bg-[#171717] px-4 py-2 text-sm font-medium text-amber-300 transition-all duration-300 hover:border-amber-400 hover:bg-[#202020] hover:scale-105">
+    🗄️ ChromaDB
   </span>
 
-  <span className="bg-slate-800 px-4 py-2 rounded-full text-cyan-400">
-    Groq
+  <span className="rounded-full border border-amber-400/20 bg-[#171717] px-4 py-2 text-sm font-medium text-amber-300 transition-all duration-300 hover:border-amber-400 hover:bg-[#202020] hover:scale-105">
+    ⚡ Groq
   </span>
 
 </div>

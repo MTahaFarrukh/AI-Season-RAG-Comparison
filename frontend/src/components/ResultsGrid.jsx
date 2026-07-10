@@ -1,12 +1,10 @@
 import ResultCard from "./ResultCard";
 
 function ResultsGrid({ results }) {
-
   if (!results) return null;
 
   return (
-
-    <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+    <div className="mt-12 grid grid-cols-1 gap-8 lg:grid-cols-3 animate-[fadeIn_0.6s_ease-in-out]">
 
       <ResultCard
         title="Recursive Splitter"
@@ -27,9 +25,7 @@ function ResultsGrid({ results }) {
       />
 
     </div>
-
   );
-
 }
 
 export default ResultsGrid;

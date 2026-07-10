@@ -40,7 +40,7 @@ function App() {
 
   return (
 
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-950 to-black text-white">
+    <div className="min-h-screen bg-gradient-to-br from-[#16120A] via-[#0A0A0A] to-black text-white">
 
       <div className="max-w-screen-2xl mx-auto px-8 py-12">
 

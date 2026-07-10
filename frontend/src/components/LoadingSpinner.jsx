@@ -1,19 +1,19 @@
 function LoadingSpinner() {
+  return (
+    <div className="mt-14 flex flex-col items-center">
 
-    return(
+      <div className="h-14 w-14 animate-spin rounded-full border-4 border-[#2A2A2A] border-t-amber-400"></div>
 
-        <div className="text-center mt-10">
+      <p className="mt-6 text-lg font-medium text-amber-300">
+        Comparing all 6 RAG combinations...
+      </p>
 
-            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-cyan-400 mx-auto"></div>
-            <p className="mt-4 text-slate-400">
+      <p className="mt-2 text-sm text-gray-500">
+        Testing different chunking strategies and retrieval methods.
+      </p>
 
-            Comparing all chunking strategies...
-
-            </p>
-        </div>
-
-    )
-
+    </div>
+  );
 }
 
 export default LoadingSpinner;

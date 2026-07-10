@@ -23,21 +23,21 @@ function ChatInput({
                         askQuestion();
                     }
                 }}
-                className="flex-1 rounded-xl bg-slate-800 border border-slate-700 px-5 py-4 text-white outline-none focus:border-cyan-400"
+                className="flex-1 rounded-xl bg-[#171717] border border-[#2A2A2A] px-5 py-4 text-white placeholder:text-gray-500 outline-none focus:border-amber-400 focus:ring-2 focus:ring-amber-400/30 transition-all"
 
             />
 
             <button
                 onClick={askQuestion}
                 disabled={loading}
-                className={`px-8 rounded-xl font-semibold transition-all
+                className={`px-8 py-4 rounded-xl font-semibold text-black transition-all duration-300
                 ${
                     loading
-                        ? "bg-gray-600 cursor-not-allowed"
-                        : "bg-cyan-500 hover:bg-cyan-600"
+                        ? "bg-gray-600 cursor-not-allowed text-white"
+                        : "bg-gradient-to-r from-yellow-300 via-amber-400 to-orange-500 hover:from-yellow-400 hover:via-amber-500 hover:to-orange-600 shadow-lg hover:shadow-amber-500/30 hover:scale-105"
                 }`}
             >
-                {loading ? "Loading..." : "Ask"}
+                {loading ? "Thinking..." : "Ask Question"}
             </button>
 
         </div>
