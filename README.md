@@ -92,7 +92,7 @@ AI-Season-RAG/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/AI-Season-RAG.git
+git clone https://github.com/MTahaFarrukh/AI-Season-RAG-Comparison.git
 ```
 
 ---
