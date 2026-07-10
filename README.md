@@ -136,11 +136,12 @@ npm run dev
 
 ### Home Screen
 
-_Add Screenshot Here_
+<img width="949" height="437" alt="image" src="https://github.com/user-attachments/assets/70049365-0754-44ce-80e7-d0eb6003f5a3" />
+
 
 ### Comparison Results
 
-_Add Screenshot Here_
+<img width="932" height="431" alt="image" src="https://github.com/user-attachments/assets/301b487b-50ca-4b99-800c-5b51e68b7757" />
 
 ---
 
