@@ -143,7 +143,9 @@ npm run dev
 
 ### Home Screen
 
-<img width="949" height="437" alt="image" src="https://github.com/user-attachments/assets/70049365-0754-44ce-80e7-d0eb6003f5a3" />
+<img width="953" height="437" alt="image" src="https://github.com/user-attachments/assets/ad0502fc-4320-4472-8805-2065a4d0b881" />
+
+<img width="933" height="437" alt="image" src="https://github.com/user-attachments/assets/23b29da2-3b11-4686-a110-258d4d814b3b" />
 
 
 ### Comparison Results
